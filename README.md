@@ -6,5 +6,5 @@ Ligth debian version with apache2 and php7 with all extensions required. This is
 # Usage
 
 ```
-docker run --name apache2php7 -dit --restart unless-stopped -p 80:80 -v ~/workspace/:/var/www/html apache2php7:latest
+docker run --name apache2php7 -dit --restart unless-stopped -p 80:80 -v ~/workspace/:/var/www/html talosdigital/apache2php7
 ```
